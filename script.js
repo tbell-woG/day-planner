@@ -9,7 +9,8 @@ $(document).ready(function () {
         var time = $(this).parent().attr("id");
 
         // This svaes user inputs into the local storage
-        localStorage.setItem(time, text);
+        append(localStorage.setItem(time, text));
+        append(localStorage.getItem(time, text));
     })
 
 // This retrives saved user inputs and data from local storage
@@ -41,7 +42,7 @@ $(document).ready(function () {
             //These check to see if the time has passed
             if (blockHour < currentHour) {
                 $(this).addClass("past");
-                $(this).addClass("present");
+                $(this).removeClass("present");
                 $(this).removeClass("future");
             }
             else if (blockHour === currentHour) {
