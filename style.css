@@ -18,7 +18,7 @@ body {
     background-color: transparent;
     color: rgb(0, 123, 255);
     border-radius: 0;
-    border-bottom: 15px solid rgb(230, 205, 103);
+    border-bottom: 15px solid #77dd77;
   }
   
   .description{
