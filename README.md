@@ -41,5 +41,3 @@ The code quiz web application was created with these coding languages:
 Tamira Bell - https://github.com/tbell-woG
 
 Project Link: https://https://github.com/tbell-woG/day-planner
-
-Deployed Website Link: https://tbell-wog.github.io/day-planner/
