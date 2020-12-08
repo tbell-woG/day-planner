@@ -3,32 +3,29 @@ $(document).ready(function () {
     $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
 
 // This sets saveBtn click listen for what the user typed in and the time
-    $(".saveBtn").on("click", function () {
-        console.log(this);
-        var text = $(this).siblings(".description").val();
-        var time = $(this).parent().attr("id");
-
-        // This svaes user inputs into the local storage
-        append(localStorage.setItem(time, text));
-        append(localStorage.getItem(time, text));
-    })
+$(".saveBtn").on("click", function () {
+    var text = $(this).siblings(".description").val();
+    var time = $(this).parent().attr("id");
+ 
+    // This svaes user inputs into the local storage
+    localStorage.setItem(time, text);
+    textarea = localStorage.getItem(time, text);
+})
 
 // This retrives saved user inputs and data from local storage
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
     $("#hour11 .description").val(localStorage.getItem("hour11"));
     $("#hour12 .description").val(localStorage.getItem("hour12"));
-    $("#hour1 .description").val(localStorage.getItem("hour13"));
-    $("#hour2 .description").val(localStorage.getItem("hour14"));
-    $("#hour3 .description").val(localStorage.getItem("hour15"));
-    $("#hour4 .description").val(localStorage.getItem("hour16"));
-    $("#hour5 .description").val(localStorage.getItem("hour17"));
-    $("#hour6 .description").val(localStorage.getItem("hour18"));
-    $("#hour7 .description").val(localStorage.getItem("hour19"));
-    $("#hour8 .description").val(localStorage.getItem("hour20"));
-    $("#hour9 .description").val(localStorage.getItem("hour21"));
-    $("#hour10 .description").val(localStorage.getItem("hour22"));
-    $("#hour11 .description").val(localStorage.getItem("hour23"));
+    $("#hour13 .description").val(localStorage.getItem("hour13"));
+    $("#hour14 .description").val(localStorage.getItem("hour14"));
+    $("#hour14 .description").val(localStorage.getItem("hour15"));
+    $("#hour15 .description").val(localStorage.getItem("hour16"));
+    $("#hour16 .description").val(localStorage.getItem("hour17"));
+    $("#hour17 .description").val(localStorage.getItem("hour18"));
+    $("#hour18 .description").val(localStorage.getItem("hour19"));
+    $("#hour19 .description").val(localStorage.getItem("hour20"));
+
 
     function hourTracker() {
         // This shows total of current hours
