@@ -1,7 +1,5 @@
-# day-planner
+# Day Planner
 Create a simple calendar application that allows a user to save events for each hour of the day using HTML, CSS, Javascript, and jQuery.
-
-# Code Quiz
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
