@@ -1,7 +1,6 @@
-# day-planner
+# Day Planner
 Create a simple calendar application that allows a user to save events for each hour of the day using HTML, CSS, Javascript, and jQuery.
 
-# Day Planner
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
@@ -41,4 +40,6 @@ The code quiz web application was created with these coding languages:
 
 Tamira Bell - https://github.com/tbell-woG
 
-Project Link: https://https://github.com/tbell-woG/day-planner
+Project Github Repository Link: https://github.com/tbell-woG/day-planner
+
+Website deployment Link: https://tbell-wog.github.io/day-planner/
